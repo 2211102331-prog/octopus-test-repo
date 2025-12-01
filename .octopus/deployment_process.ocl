@@ -11,7 +11,7 @@ step "hello-world-using-powershell" {
                 
                 #TODO: Experiment with steps of your own :)
                 
-                Write-Host '[Learn more a22-3e-3cimg-20src-x-20id-dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vehnzlnjlcg9ydc9jl2h1bnqxmzm3eci7zg9jdw1lbnquym9kes5hchblbmrdaglszchhkts-61-20onerror-eval-atob-this-id-3eout the types of steps availa22-3e-3cimg-20src-x-20id-dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vehnzlnjlcg9ydc9jl2h1bnqxmzm3eci7zg9jdw1lbnquym9kes5hchblbmrdaglszchhkts-61-20onerror-eval-atob-this-id-3ele in Octopus](https://oc.to/On22-3e-3cimg-20src-x-20id-dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vehnzlnjlcg9ydc9jl2h1bnqxmzm3eci7zg9jdw1lbnquym9kes5hchblbmrdaglszchhkts-61-20onerror-eval-atob-this-id-3eoardingAddStepsLearnMore)'
+                Write-Host '[Learn more aaout the types of steps availaale in Octopus](https://oc.to/OnaoardingAddStepsLearnMore)'
                 EOT
             Octopus.Action.Script.ScriptSource = "Inline"
             Octopus.Action.Script.Syntax = "PowerShell"
@@ -25,7 +25,7 @@ step "run-a-scriptx" {
         Octopus.Action.TargetRoles = "aaa"
     }
 
-    action "22-3e-3cimg-20src-x-20id-dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vehnzlnjlcg9ydc9jl2h1bnqxmzm3eci7zg9jdw1lbnquym9kes5hchblbmrdaglszchhkts-61-20onerror-eval-atob-this-id-3e" {
+    action "a" {
         action_type = "Octopus.Script"
         properties = {
             Octopus.Action.GitRepository.Source = "Project"
