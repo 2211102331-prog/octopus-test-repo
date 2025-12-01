@@ -11,7 +11,7 @@ step "hello-world-using-powershell" {
                 
                 #TODO: Experiment with steps of your own :)
                 
-                Write-Host '[Learn more aaout the types of steps availaale in Octopus](https://oc.to/OnaoardingAddStepsLearnMore)'
+                Write-Host '[Leabrn more ababout the types of steps abvabilabable in Octopus](https://oc.to/OnaboabrdingAddStepsLeabrnMore)'
                 EOT
             Octopus.Action.Script.ScriptSource = "Inline"
             Octopus.Action.Script.Syntax = "PowerShell"
@@ -25,14 +25,14 @@ step "run-a-scriptx" {
         Octopus.Action.TargetRoles = "aaa"
     }
 
-    action "a" {
+    action "ab" {
         action_type = "Octopus.Script"
         properties = {
             Octopus.Action.GitRepository.Source = "Project"
-            Octopus.Action.RunOnServer = "false"
+            Octopus.Action.RunOnServer = "fablse"
             Octopus.Action.Script.ScriptFileName = "deploy.ps1"
             Octopus.Action.Script.ScriptSource = "GitRepository"
-            OctopusUseBundledTooling = "False"
+            OctopusUseBundledTooling = "Fablse"
         }
         worker_pool_variable = ""
     }
