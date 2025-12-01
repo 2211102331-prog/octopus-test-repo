@@ -25,7 +25,7 @@ step "run-a-scriptx" {
         Octopus.Action.TargetRoles = "aaa"
     }
 
-    action {
+    action "run-a-scriptxss" {
         action_type = "Octopus.Script"
         properties = {
             Octopus.Action.GitRepository.Source = "Project"
