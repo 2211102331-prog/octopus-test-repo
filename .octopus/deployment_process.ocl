@@ -20,7 +20,7 @@ step "hello-world-using-powershell" {
 }
 
 step "run-a-scriptx" {
-    name = "Run a Scriptxm"
+    name = "aaaaa"
     properties = {
         Octopus.Action.TargetRoles = "aaa"
     }
