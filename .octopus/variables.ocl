@@ -3,3 +3,7 @@ variable "VarA" {
 
     value {}
 }
+
+variable "VarB" {
+    value "#{VarA}" {}
+}
